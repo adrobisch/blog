@@ -12,4 +12,4 @@ Use `sbt`:
 
     sbt packageSite // create zip package
 
-    sbt publishSite // push to github
+    sbt ghpagesPushSite // push to github
