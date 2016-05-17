@@ -8,7 +8,7 @@ In school I learned programming using BASIC, C++ and later Java (2001, version <
 The continued fascination for programming resulted in Computer Science studies at the http://www.informatik.uni-halle.de/[University of Halle] in 2003 which I completed in 2009.
 During that time I was able to observe the hype cycles of MDA (Model-driven Architecture) and SOA (Service-oriented Architecture).
 
-This lead to my works in the area of BPM (Business Process Management) and my first employment at the GISA GmbH in Halle.
+This lead to my diploma thesis in the area of BPM (Business Process Management) and my first employment at the GISA GmbH in Halle.
 Being a development consultant for several customers I bootstrapped several BPM prototypes and worked on Java Web Applications using Tomcat and the outdated SAP J2EE Application Servers.
 
 Because of my growing the admiration for open-source software I moved to Berlin and joined camunda.com in 2011 to do BPM consulting and to work on the camunda BPM platform.

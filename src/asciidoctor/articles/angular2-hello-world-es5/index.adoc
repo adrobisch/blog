@@ -1,7 +1,7 @@
 == Angular 2 "Hello World!", the short version
 
-Since the _"default"_ getting started at angular.io is ridiculously complex due to all the build setup for Typescript,
-here a short version in _Plain Old JavaScript_ aka ES5 in the spirit of a real "Hello World!":
+Since the default getting started at http://angular.io is ridiculously complex due to the steps of creating
+the build setup for Typescript, here a minial version in *ES5* in the spirit of a real "Hello World!":
 
 ==== index.html
 [source,html]
@@ -14,3 +14,5 @@ include::index.html[]
 ----
 include::app.js[]
 ----
+
+At the location of the `<hello>`-tag, you will see the content of the new component.

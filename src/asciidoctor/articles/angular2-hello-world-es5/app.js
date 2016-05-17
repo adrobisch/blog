@@ -1,7 +1,7 @@
 var HelloComponent = ng.core
   .Component({
     selector: 'hello',
-    template: 'Hello World!'
+    template: '<p>Hello World!</p>'
   })
   .Class({
     constructor: function () {
