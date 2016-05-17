@@ -1,0 +1,61 @@
+#%RAML 1.0
+title: HATEOAS example
+
+types:
+  Link:
+    type: object
+    properties:
+      rel: string
+      href?:
+        type: string
+        description: the actual target URI of a link, will be set by the service in most case
+      templated?: boolean
+      targetType?:
+        type: string
+  ApiRoot:
+    (links):
+      - rel: albums
+      #targetType: AlbumCollection
+      - rel: song
+        targetType: Song
+        templated: true
+  Song:
+    (links):
+      - rel: album
+        targetType: Album
+    properties:
+      title: string
+      length:
+        type: integer
+        description: length in seconds
+  Album:
+    properties:
+      artists: string
+      title: string
+
+annotationTypes:
+  links:
+    type: Link[]
+
+/:
+  get:
+    responses:
+      200:
+        body:
+          application/hal+json:
+              type: ApiRoot
+
+# don't generate documentation for resources below here, if you are afraid of hard coding.
+# this definitions might still be needed for service stub generation, automated testing etc.
+
+/song/{id}:
+  get:
+    responses:
+      200:
+        body:
+          application/hal+json:
+              type: Song
+/albums:
+#...
+/songs:
+#...
