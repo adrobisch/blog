@@ -1,0 +1,1 @@
+include::articles/angular2-hello-world-es5/index.adoc[]

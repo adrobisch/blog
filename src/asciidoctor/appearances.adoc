@@ -1,0 +1,35 @@
+== Software Community Appearances
+
+I am attracted by free food, beverages and coding for fun:
+
+=== apps.world Berlin, April 2015
+
+Forum discussion and mini-talk, in which I talked about the protoyping of RESTful services with RAML:
+
+http://slides.com/adrobisch/rest-prototyping-raml
+
+=== Java Usergroup Berlin, January 2015
+
+I gave a (German) talk about http://www.meetup.com/de-DE/eposttechtalk/events/219257221/[Self describing REST-Services using RAML 0.8 and BPMN]:
+
+video::cSgPbCHa7qc[youtube]
+
+=== Berlin Mini Game Jam, September 2014
+
+video::5Asc08UYhVE[youtube]
+
+=== Paypal BattleHack, June 2014
+
+Together with @nrehwaldt, @TomKnig and @tronicum working on a "Uber-for-X"-shopping app with JHipster backend:
+
+https://twitter.com/braintree_dev/status/480708133883756544
+
+=== apps.berlin.js VI, August 2013
+
+Together with @nrehwaldt I talked about http://www.meetup.com/apps-berlin-js/events/122076262[Silent Disco and our experience in creating a WebSocket based client] application with different backends:
+
+video::GrZVBelTQ60[youtube]
+
+=== German Java Magazine, December 2012
+
+link:files/JM_12_12_Drobisch_Rehwaldt_Preusker_JavaScript.pdf[German article about migrating a JSF-Application to a HTML5 (Angular) app with RESTful backend]

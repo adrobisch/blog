@@ -1,0 +1,29 @@
+include::settings.adoc[]
+
+== Timeline
+
+I started wondering about computers in 1991 when my parents bought a 386SX with 25 MHZ and 2 MB of RAM.
+In school I learned programming using BASIC, C++ and later Java (2001, version <= 1.3), mainly for the creation of computer games and graphical calculator tools.
+
+The continued fascination for programming resulted in Computer Science studies at the http://www.informatik.uni-halle.de/[University of Halle] in 2003 which I completed in 2009.
+During that time I was able to observe the hype cycles of MDA (Model-driven Architecture) and SOA (Service-oriented Architecture).
+
+This lead to my works in the area of BPM (Business Process Management) and my first employment at the GISA GmbH in Halle.
+Being a development consultant for several customers I bootstrapped several BPM prototypes and worked on Java Web Applications using Tomcat and the outdated SAP J2EE Application Servers.
+
+Because of my growing the admiration for open-source software I moved to Berlin and joined camunda.com in 2011 to do BPM consulting and to work on the camunda BPM platform.
+This included contributions to the BPMN2 Modeler Project at eclipse.org and to the Activiti BPM engine.
+During that time I became in interested in JavaScript and the upcoming HTML5 standards and managed to get the support of the management for a migration of the existing JSF applications to RESTful
+services with a AngularJS (version 1.0) client.
+This experience is covered in a article written with my colleagues for the German Java Magazine.
+During that time I also certified as Scrum Master and worked for about a year in a Scrum Master / Developer dual role.
+
+In 2013 I joined the E-POST as a software architect to work on the problems of a big customer facing web applications.
+During that time we split the system into several self-containing services, an approach which is now commonly  knows as microservices.
+I was mainly working on service which integrated several external services to sign up new customers via offline forms.
+
+Since the E-POST was not able to meet business goals, a massive reorganization was started. As a consequence I left E-POST to join UCANDO GmbH in 2015 as Lead Developer for their Datahub service.
+We are currently developing an international (Poland, Sweden, ...) web shop for car parts.
+
+
+include::appearances.adoc[]
