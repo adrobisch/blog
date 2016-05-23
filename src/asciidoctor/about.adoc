@@ -10,6 +10,9 @@ Business Process Management + related technologies, standards and patterns.
 I am holding a Diploma Degree (German Master equivalent) in Computer Science
 from the http://www.informatik.uni-halle.de[University of Halle].
 
+Currently, I am working at http://ucando.pl[UCANDO] as Lead Developer.
+Previously, I worked for https://epost.de[Deutsche Post E-POST], https://camunda.org[camunda] and https://gisa.de[GISA].
+
 == Accounts
 
 [none]
