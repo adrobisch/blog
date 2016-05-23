@@ -1,5 +1,11 @@
 include::settings.adoc[]
 
+= drog
+
 include::intro.adoc[]
 
-include::articles.adoc[]
+link:articles/index.html[All articles]
+
+include::articles/main.adoc[]
+
+link:articles/index.html[All articles]

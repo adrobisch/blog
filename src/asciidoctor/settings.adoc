@@ -1,6 +1,3 @@
-:stylesdir: css/
-:stylesheet: style.css
 :icons: font
-:toc: right
 :nofooter:
 :source-highlighter: prettify

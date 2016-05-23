@@ -1,3 +1,5 @@
+include::../settings.adoc[]
+
 == Angular 2 "Hello World!", the short version
 
 Since the default getting started at http://angular.io is ridiculously complex due to the steps of creating
@@ -6,13 +8,13 @@ the build setup for Typescript, here a minial version in *ES5* in the spirit of 
 ==== index.html
 [source,html]
 ----
-include::index.html[]
+include::angular2-hello-world-es5/index.html[]
 ----
 
 ==== app.js
 [source,javascript]
 ----
-include::app.js[]
+include::angular2-hello-world-es5/app.js[]
 ----
 
 At the location of the `<hello>`-tag, you will see the content of the new component.

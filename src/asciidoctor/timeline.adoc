@@ -25,5 +25,4 @@ I was mainly working on service which integrated several external services to si
 Since the E-POST was not able to meet business goals, a massive reorganization was started. As a consequence I left E-POST to join UCANDO GmbH in 2015 as Lead Developer for their Datahub service.
 We are currently developing an international (Poland, Sweden, ...) web shop for car parts.
 
-
 include::appearances.adoc[]

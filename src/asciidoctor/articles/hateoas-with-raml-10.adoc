@@ -1,0 +1,12 @@
+include::../settings.adoc[]
+
+== HATEOAS / Hypermedia with RAML 1.0
+
+There is no first-class Hypermedia / Link support in RAML 1.0, but you can now
+annotate your resources  and even types, making it possible to create the
+concept of a link:
+
+[source, yaml]
+----
+include::hateoas-with-raml-10/hateoas.raml[]
+----

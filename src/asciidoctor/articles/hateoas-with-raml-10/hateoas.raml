@@ -8,14 +8,13 @@ types:
       rel: string
       href?:
         type: string
-        description: the actual target URI of a link, will be set by the service in most case
+        description: the actual target URI of a link, will be set by the service in most cases
       templated?: boolean
-      targetType?:
-        type: string
+      targetType?: string
   ApiRoot:
     (links):
       - rel: albums
-      #targetType: AlbumCollection
+      # targetType: ...
       - rel: song
         targetType: Song
         templated: true
@@ -30,7 +29,7 @@ types:
         description: length in seconds
   Album:
     properties:
-      artists: string
+      artist: string
       title: string
 
 annotationTypes:
