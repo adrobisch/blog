@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.2">
-<title>HATEOAS / Hypermedia with RAML 1.0</title>
+<title>drog reboot</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -408,143 +408,29 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+<script>document.addEventListener('DOMContentLoaded', prettyPrint)</script>
 </head>
 <body class="article">
 <div id="header">
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_hateoas_hypermedia_with_raml_1_0">HATEOAS / Hypermedia with RAML 1.0</h2>
+<h2 id="_drog_reboot">drog reboot</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>There is no first-class Hypermedia / Link support in RAML 1.0, but you can now
-annotate your resources  and even types, making it possible to create the
-concept of a link:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-yaml" data-lang="yaml">#%RAML 1.0
-title: HATEOAS example
-
-types:
-  Link:
-    type: object
-    properties:
-      rel: string
-      href?:
-        type: string
-        description: the actual target URI of a link, will be set by the service in most cases
-      templated?: boolean
-      targetType?: string
-  ApiRoot:
-    (links):
-      - rel: albums
-      # targetType: ...
-      - rel: song
-        targetType: Song
-        templated: true
-  Song:
-    (links):
-      - rel: album
-        targetType: Album
-    properties:
-      title: string
-      length:
-        type: integer
-        description: length in seconds
-  Album:
-    properties:
-      artist: string
-      title: string
-
-annotationTypes:
-  links:
-    type: Link[]
-
-/:
-  get:
-    responses:
-      200:
-        body:
-          application/hal+json:
-              type: ApiRoot
-
-# don't generate documentation for resources below here, if you are afraid of hard coding.
-# this definitions might still be needed for service stub generation, automated testing etc.
-
-/song/{id}:
-  get:
-    responses:
-      200:
-        body:
-          application/hal+json:
-              type: Song
-/albums:
-#...
-/songs:
-#...</code></pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_angular_2_hello_world_the_short_version">Angular 2 "Hello World!", the short version</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Since the default getting started at <a href="http://angular.io" class="bare">http://angular.io</a> is ridiculously complex due to the steps of creating
-the build setup for Typescript, here a minial version in <strong>ES5</strong> in the spirit of a real "Hello World!":</p>
-</div>
-<div class="sect3">
-<h4 id="_index_html">index.html</h4>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-html" data-lang="html">&lt;!doctype html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.17/Rx.umd.min.js"&gt;&lt;/script&gt;
-    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.17/angular2-polyfills.min.js"&gt;&lt;/script&gt;
-    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/2.0.0-beta.17/angular2-all.umd.min.js"&gt;&lt;/script&gt;
-
-    &lt;script src="app.js"&gt;&lt;/script&gt;
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;hello&gt;&lt;/hello&gt;
-  &lt;/body&gt;
-
-&lt;/html&gt;</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_app_js">app.js</h4>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-javascript" data-lang="javascript">var HelloComponent = ng.core
-  .Component({
-    selector: 'hello',
-    template: '&lt;p&gt;Hello World!&lt;/p&gt;'
-  })
-  .Class({
-    constructor: function () {
-    }
-  });
-
-document.addEventListener('DOMContentLoaded', function () {
-  ng.platform.browser.bootstrap(HelloComponent);
-});</code></pre>
-</div>
+<p>Finally got the time, to reboot drog (= DRobisch + blOG). This time hosted on <code>github</code> and with
+a way more developer friendly setup. All content will be static html converted
+from <strong>AsciiDoc</strong> sources. This should lower the bar for new articles significantly,
+so finally more content!</p>
 </div>
 <div class="paragraph">
-<p>At the location of the <code>&lt;hello&gt;</code>-tag, you will see the content of the new component.</p>
+<p>Cheers,
+Andreas</p>
 </div>
 </div>
-</div>
-</div>
-</div>
-<div id="footer">
-<div id="footer-text">
-Last updated 2016-05-23 10:37:12 +02:00
 </div>
 </div>
 </body>
