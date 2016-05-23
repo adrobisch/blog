@@ -1,5 +1,3 @@
 [0m[[0mdebug[0m] [0m/home/adrobisch/.sbt/ghpages/a2f34a23ccdbec3f767d66ddf36abae1a483a418/default/drog$ git pull[0m
-[0m[[0minfo[0m] [0mWarning: Permanently added the RSA host key for IP address '192.30.252.122' to the list of known hosts.[0m
-[0m[[0minfo[0m] [0mFrom github.com:adrobisch/blog[0m
-[0m[[0minfo[0m] [0m   b372cff..a4d9ab6  master     -> origin/master[0m
+[0m[[0minfo[0m] [0mWarning: Permanently added the RSA host key for IP address '192.30.252.123' to the list of known hosts.[0m
 [0m[[0minfo[0m] [0mAlready up-to-date.[0m

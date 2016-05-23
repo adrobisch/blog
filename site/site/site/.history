@@ -2,3 +2,5 @@ ghpagesPushSite
 exit
 sbt previewSite
 previewSite
+exit
+previewSite

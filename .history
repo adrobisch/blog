@@ -3,3 +3,5 @@ exit
 sbt previewSite
 previewSite
 exit
+previewSite
+exit
