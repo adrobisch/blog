@@ -5,13 +5,13 @@ include::../settings.adoc[]
 Since the default getting started at http://angular.io is ridiculously complex due to the steps of creating
 the build setup for Typescript, here a minial version in *ES5* in the spirit of a real "Hello World!":
 
-==== index.html
+=== index.html
 [source,html]
 ----
 include::angular2-hello-world-es5/index.html[]
 ----
 
-==== app.js
+=== app.js
 [source,javascript]
 ----
 include::angular2-hello-world-es5/app.js[]

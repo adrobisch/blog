@@ -2,5 +2,7 @@ include::../settings.adoc[]
 
 == All Articles
 
-- link:hateoas-with-raml-10.html[Hypermedia / HATEOAS with RAML 1.0]
-- link:angular2-hello-world.html[Angular 2 "Hello World!" in ES5]
+[none]
+* link:hateoas-with-raml-10.html[Hypermedia / HATEOAS with RAML 1.0]
+* link:angular2-hello-world.html[Angular 2 "Hello World!" in ES5]
+* link:drog-reboot.html[drog reboot]

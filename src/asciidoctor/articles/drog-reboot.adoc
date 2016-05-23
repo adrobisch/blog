@@ -1,0 +1,11 @@
+include::../settings.adoc[]
+
+== drog reboot
+
+Finally got the time, to reboot drog (= DRobisch + blOG). This time hosted on `github` and with
+a way more developer friendly setup. All content will be static html converted
+from *AsciiDoc* sources. This should lower the bar for new articles significantly,
+so finally more content!
+
+Cheers,
+Andreas

@@ -3,3 +3,5 @@ include::../settings.adoc[]
 include::hateoas-with-raml-10.adoc[]
 
 include::angular2-hello-world.adoc[]
+
+include::drog-reboot.adoc[]
