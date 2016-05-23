@@ -1,0 +1,4 @@
+ghpagesPushSite
+exit
+sbt previewSite
+previewSite
