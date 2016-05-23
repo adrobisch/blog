@@ -1,3 +1,2 @@
 This blog is filled  with software development related content by Andreas Drobisch. Views are my own.
-//If you are interested in my past, check link:timeline.html[my timeline].
-Feel free to connect: http://twitter.com/adrobisch[icon:twitter[]@adrobisch]
+Feel free to connect: http://twitter.com/adrobisch[icon:twitter[]@adrobisch], (link:profile.html[more links here...])
