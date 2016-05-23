@@ -1,5 +1,15 @@
 include::settings.adoc[]
 
+== About me
+
+I am a software developer located in Berlin, with ~10 years of experience in professional software development.
+Mainly using the http://www.java.com[JVM] to get things done.
+Special interests: Web Development, Functional Programming, (micro-)Service Oriented Architecture,
+Business Process Management + related technologies, standards and patterns.
+
+I am holding a Diploma Degree (German Master equivalent) in Computer Science
+from the http://www.informatik.uni-halle.de[University of Halle].
+
 == Accounts
 
 [none]
